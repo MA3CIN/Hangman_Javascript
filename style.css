@@ -1,0 +1,137 @@
+body {
+ background-color: rgb(240, 250, 252);
+}
+.Calosc {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.Napis {
+  font-size: 3rem;
+  color: rgb(65, 62, 62);
+}
+
+.Alfabet {
+  height: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.Alfabet > * {
+  margin:0 2.2rem;
+  background-color: rgb(154, 199, 207);
+  border-radius: 20px;
+  height: 3.5rem;
+  width: 3.5rem;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  align-items: center;
+  color: rgb(65, 62, 62);
+  box-shadow: 0 0 3px rgb(95, 131, 133);
+  cursor: pointer;
+}
+
+.Przycisk {
+    margin-top: 1rem;
+    margin-bottom: 4.5rem;
+  height: 3rem;
+  width: 5rem;
+  font-size: 1.5rem;
+}
+
+.Literki {
+  margin-top: 3.5rem;
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Literki >*{
+  font-size: 3rem;
+  opacity: 100%;
+  width: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+.Podkresl {
+    margin-top: 0;
+    height: 0.6rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.Podkresl>*{
+    margin: 0 0.25rem;
+    font-size: 3rem; 
+    border: 0;
+    width: 2rem;
+    border-bottom: 3px solid black;
+}
+
+.Win {
+  opacity: 20%;
+}
+.Lose {
+  opacity: 20%;
+}
+
+.WinLose {
+  position: absolute;
+  width: 27rem;
+  height: 15rem;
+  background-color: rgb(228, 238, 240);
+  box-shadow: 0 0 3px rgb(79, 111, 112);
+  border-radius: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.WinLose > :first-child {
+  color: rgb(65, 62, 62);
+  padding: 4.5rem;
+  margin-left: 2.5rem;
+}
+
+.ZagrajPonowie {
+  font-size: 2rem;
+  margin-left: 6rem;
+}
+
+.LiczbaProb {
+  background-color: pink;
+  margin-top: 1rem;
+  height: 5rem;
+  font-size: 2rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.PrzyciskPodpowiedz {
+  height: 3rem;
+  font-size: 2rem;
+  border-radius: 5px;
+  background-color: #dfdede;
+}
+
+.HintBox{
+  margin: 1rem;
+  border-radius: 20px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}}
